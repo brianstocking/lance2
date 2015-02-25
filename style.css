@@ -1,0 +1,154 @@
+*{
+    font-family: sans-serif;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+    box-sizing: border-box;
+}
+
+.top {
+  height: 40%;
+width: 100%;
+background: red;
+}
+
+.topWords{
+height: 20%;
+width: 100%;
+}
+
+
+.second {
+    background: #00C1F9;
+    margin: 0;
+
+
+}
+
+.third {
+background: #89898B;
+margin: 0;
+}
+.info{
+height :30%;
+width: 100%;
+margin: 0;
+box-sizing: border-box;
+    color:white
+
+}
+
+.fourth {
+background: #94D800;
+}
+
+.fifth {
+background: #656AD5;
+
+}
+.image{
+    /*background: black;*/
+    width: 40%;
+    height: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+
+}
+.blue:after{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    left: 65%;
+    top: -40%;
+    transform: rotate(15deg);
+    background: #00C1F9;
+
+}
+.grey:after{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    left: 65%;
+    top: -40%;
+    transform: rotate(15deg);
+    background: #89898B;
+
+
+}
+.green:after{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    left: 65%;
+    top: -40%;
+    transform: rotate(15deg);
+    background: #94D800;
+
+
+}
+.purple:after{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    left: 65%;
+    top: -40%;
+    transform: rotate(15deg);
+    background: #656AD5;
+
+
+}
+
+.the-image{
+    height: 100%;
+    width: 100%;
+}
+.inside{
+    width: 48%;
+    height: 100%;
+    float: left;
+
+}
+
+.submitButton{
+width: 10%;
+float: left;
+}
+
+.learn {
+width: 100px;
+height: 40px;
+background: darkgrey;
+border: 4px solid whitesmoke;
+font-family: sans-serif;
+color: white;
+margin: 45% 0 0 30%;
+box-sizing: border-box;
+}
+
+.blue{
+    background: #00C1F9;
+
+}
+
+.grey{
+    background: #89898B;
+
+}
+
+.green{
+    background: #94D800;
+
+}
+
+.purple{
+    background: #656AD5;
+
+}
